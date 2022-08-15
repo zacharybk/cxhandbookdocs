@@ -75,11 +75,8 @@ const config = {
       footer: {
         style: 'dark',
 
-HTML:
-<p align="center">   <iframe src="https://customerexperience.substack.com/embed"  width="300" height="200" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="yes">
-,
-        links: [
 
+        links: [
           {
             title: 'Docs',
             items: [
@@ -89,7 +86,17 @@ HTML:
               },
             ],
           },
-
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/zacharybk',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/zacharybk',
+              },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/zacharybk',
@@ -105,12 +112,11 @@ HTML:
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/zacharybk',
               },
             ],
           },
         ],
-
         copyright: `Copyright © 2020-${new Date().getFullYear()} Customer Experience Handbook.`,
       },
       prism: {
@@ -121,7 +127,9 @@ HTML:
 };
 
 module.exports = {
+  title: 'CX Handbook',
   url: 'https://shiny-begonia-2c0a3a.netlify.app', // Url to your site with no trailing slash
   baseUrl: '/', // Base directory of your site relative to your repo
   // ...
 };
+//<p align="center">   <iframe src="https://customerexperience.substack.com/embed"  width="300" height="200" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="yes">
