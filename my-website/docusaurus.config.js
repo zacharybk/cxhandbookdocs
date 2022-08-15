@@ -70,8 +70,7 @@ const config = {
             label: 'Handbook',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-
-      },
+          
       footer: {
         style: 'dark',
 
