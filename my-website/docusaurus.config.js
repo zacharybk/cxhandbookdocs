@@ -124,4 +124,4 @@ module.exports = {
   url: 'https://shiny-begonia-2c0a3a.netlify.app', // Url to your site with no trailing slash
   baseUrl: '/', // Base directory of your site relative to your repo
   // ...
-};;
+};
