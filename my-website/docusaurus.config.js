@@ -126,13 +126,14 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = //config;
 
 
-// module.exports = {
-//  title: 'CX Handbook',
-//  url: 'https://shiny-begonia-2c0a3a.netlify.app', // Url to your site with no trailing slash
+// module.exports = 
+{
+  title: 'CX Handbook',
+ url: 'https://shiny-begonia-2c0a3a.netlify.app', // Url to your site with no trailing slash
 //  baseUrl: '/', // Base directory of your site relative to your repo
   // ...
-//};
+};
 //<p align="center">   <iframe src="https://customerexperience.substack.com/embed"  width="300" height="200" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="yes">
