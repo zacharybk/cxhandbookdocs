@@ -90,14 +90,6 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/zacharybk',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/zacharybk',
-              },
-              {
                 label: 'Twitter',
                 href: 'https://twitter.com/zacharybk',
               },
@@ -109,10 +101,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/zacharybk',
               },
             ],
           },
@@ -126,14 +114,4 @@ const config = {
     }),
 };
 
-module.exports = //config;
-
-
-// module.exports =
-{
-  title: 'CX Handbook',
- url: 'https://shiny-begonia-2c0a3a.netlify.app', // Url to your site with no trailing slash
- baseUrl: '/', // Base directory of your site relative to your repo
-  // ...
-};
-//<p align="center">   <iframe src="https://customerexperience.substack.com/embed"  width="300" height="200" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="yes">
+module.exports = config;
