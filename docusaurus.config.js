@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'CX Handbook',
   tagline: 'CX Education for Startup Execs and Operators',
-  url: 'https://customerexperiencehandbook.com/',
+  url: 'https://shiny-begonia-2c0a3a.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -114,4 +114,4 @@ const config = {
     }),
 };
 
-module.exports = Config; 
+module.exports = config;
