@@ -10,7 +10,7 @@ const config = {
   tagline: 'CX Education for Startup Execs and Operators',
   url: 'https://customerexperiencehandbook.com/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
